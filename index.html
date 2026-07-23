@@ -2,43 +2,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ai poem generator</title>
-    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="src/style.css"/>
+    <title>AI Poem Generator</title>
 </head>
 <body>
+    <div class="container">
+      <header>
+        <h1>AI Poem Generator</h1>
+      </header>
 
-<header>
-<h1>POEM AI GENERATOR</h1>
-</header>
-  
-  <main>
-  <form>
-    <input
-      type="text"
-      placeholder="Enter the topic of the poem"
-      autofocus
-      required
-      autocomplete="off"
-    />
-    <input type="submit" />
-  </form>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the topic of the poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
 
-  <div>
-    La tombe dit à la rose
-    <br />
-    Des pleors dont l'aube t'arrose
-  </div>
-</main>
-  <footer>
-    <p>
-  This project was coded by
-  <a href="https://www.linkedin.com/in/deborah-muyongo-4143b2289" target="_blank">
-    Deborah Muyongo
-  </a>
-  and is open-sourced on
-  <a href="https://github.com/debby-namaya09" target="_blank">
-    GitHub
-  </a>.
-</p>
-  </footer>
+          <input
+            type="submit"
+            value="Generate Poem"
+            class="submit-button"
+          />
+        </form>
+
+        <div class="poem">
+          La tombe dit à la rose
+          <br />
+          Des pleurs dont l'aube t'arrose
+        </div>
+      </main>
+
+      <footer>
+        This AI project was coded by
+        <a
+          href="https://www.linkedin.com/in/deborah-muyongo-4143b2289"
+          target="_blank"
+        >
+          Deborah Muyongo
+        </a>
+        and is open-sourced on
+        <a href="https://github.com/debby-namaya09" target="_blank">
+          GitHub
+        </a>.
+      </footer>
+    </div>
+
+    <script src="src/script.js"></script>
+  </body>
+</body>
 </html>
